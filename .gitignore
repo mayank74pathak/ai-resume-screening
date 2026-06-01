@@ -1,0 +1,20 @@
+# Python Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+Backend/.env
+Frontend/.env
+
+# Node Modules
+Frontend/node_modules/
+
+# Frontend Build
+Frontend/dist/
+
+# Mac
+.DS_Store

@@ -1,0 +1,29 @@
+# Add these lines to .gitignore
+cat >> .gitignore << 'EOF'
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Sentence transformer model cache
+*.bin
+*.pt
+*.onnx
+models/
+Backend/models/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+Frontend/dist/
+
+# Uploads
+Backend/uploads/
+
+# OS
+.DS_Store
+EOF
