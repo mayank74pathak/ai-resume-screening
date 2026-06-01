@@ -37,9 +37,18 @@ function UploadResume() {
       });
       setFile(null);
       if (inputRef.current) inputRef.current.value = "";
-    } catch {
-      setMessage({ type: "error", text: "Upload failed — is the backend running at http://127.0.0.1:8000?" });
-    }
+    } catch (error) {
+  console.log(error);
+
+  setMessage({
+    type: "error",
+    text:
+      error.response?.data?.detail ||
+      error.response?.data?.message ||
+      error.message ||
+      "Upload failed"
+  });
+}
     setLoading(false);
   };
 
