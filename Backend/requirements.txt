@@ -4,8 +4,8 @@ motor
 python-dotenv
 langchain
 langchain-text-splitters
-sentence-transformers
 google-generativeai
 pymupdf
 python-multipart
 numpy
+requests
