@@ -1,7 +1,7 @@
 import axios from "axios";
  
 const API = axios.create({
-  baseURL: "https://your-backend-name.onrender.com",
+  baseURL: "https://ai-resume-screening-6.onrender.com/",
 });
  
 export default API;
