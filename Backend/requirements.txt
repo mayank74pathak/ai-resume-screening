@@ -4,7 +4,7 @@ motor
 python-dotenv
 langchain
 langchain-text-splitters
-google-generativeai>=0.8.0
+google-generativeai
 pymupdf
 python-multipart
 numpy
